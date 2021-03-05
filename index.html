@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Memory Master</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1>Memory Master</h1>
+
+    <h4>
+      Welcome challenger! Do you think you got what it takes to become a Memory
+      Master?
+    </h4>
+    <p class="rules">
+      General Rules:
+      <li>
+        You will be given a pattern, and after each sequence, your task is to repeat it by clicking on the buttons.
+      </li>
+      <li>
+        For each turn you only have 10 seconds to repeat the pattern given. So act quickly!
+      </li>
+      <li>
+        You have 3 chances. If you make a mistake, pick up where you left off
+        (do not start from the beginning).
+      </li>
+      <li>
+        Good luck and have fun!
+      </li>
+    </p>
+
+    <button id="startBtn" onclick="startGame()">
+      Start Game
+    </button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      Stop Game
+    </button>
+
+    <h1 id="countdown">00:00</h1>
+
+    <div id="gameButtonArea">
+      <button
+        id="button1"
+        onclick="guess(1)"
+        onmousedown="startTone(1); showImg(1)"
+        onmouseup="stopTone(); hideImg(1)"
+      >
+        <img
+          id="btnImg1"
+          class="conceal"
+          src="https://cdn.glitch.com/bc0d0ba8-ca45-4100-83f6-c7dbf1b7c24c%2Fmoon-image.png?v=1614919136662"
+          alt="moon and stars"
+        />
+      </button>
+      <button
+        id="button2"
+        onclick="guess(2)"
+        onmousedown="startTone(2); showImg(2)"
+        onmouseup="stopTone(); hideImg(2)"
+      >
+        <img
+          id="btnImg2"
+          class="conceal"
+          src="https://cdn.glitch.com/bc0d0ba8-ca45-4100-83f6-c7dbf1b7c24c%2Fmoon-image.png?v=1614919136662"
+          alt="moon and stars"
+        />
+      </button>
+      <button
+        id="button3"
+        onclick="guess(3)"
+        onmousedown="startTone(3); showImg(3)"
+        onmouseup="stopTone(); hideImg(3)"
+      >
+        <img
+          id="btnImg3"
+          class="conceal"
+          src="https://cdn.glitch.com/bc0d0ba8-ca45-4100-83f6-c7dbf1b7c24c%2Fmoon-image.png?v=1614919136662"
+          alt="moon and stars"
+        />
+      </button>
+      <button
+        id="button4"
+        onclick="guess(4)"
+        onmousedown="startTone(4); showImg(4)"
+        onmouseup="stopTone(); hideImg(4)"
+      >
+        <img
+          id="btnImg4"
+          class="conceal"
+          src="https://cdn.glitch.com/bc0d0ba8-ca45-4100-83f6-c7dbf1b7c24c%2Fmoon-image.png?v=1614919136662"
+          alt="moon and stars"
+        />
+      </button>
+      <button
+        id="button5"
+        onclick="guess(5)"
+        onmousedown="startTone(5); showImg(5)"
+        onmouseup="stopTone(); hideImg(5)"
+      >
+        <img
+          id="btnImg5"
+          class="conceal"
+          src="https://cdn.glitch.com/bc0d0ba8-ca45-4100-83f6-c7dbf1b7c24c%2Fmoon-image.png?v=1614919136662"
+          alt="moon and stars"
+        />
+      </button>
+      <button
+        id="button6"
+        onclick="guess(6)"
+        onmousedown="startTone(6); showImg(6)"
+        onmouseup="stopTone(); hideImg(6)"
+      >
+        <img
+          id="btnImg6"
+          class="conceal"
+          src="https://cdn.glitch.com/bc0d0ba8-ca45-4100-83f6-c7dbf1b7c24c%2Fmoon-image.png?v=1614919136662"
+          alt="moon and stars"
+        />
+      </button>
+      <button
+        id="button7"
+        onclick="guess(7)"
+        onmousedown="startTone(7); showImg(7)"
+        onmouseup="stopTone(); hideImg(7)"
+      >
+        <img
+          id="btnImg7"
+          class="conceal"
+          src="https://cdn.glitch.com/bc0d0ba8-ca45-4100-83f6-c7dbf1b7c24c%2Fmoon-image.png?v=1614919136662"
+          alt="moon and stars"
+        />
+      </button>
+      <button
+        id="button8"
+        onclick="guess(8)"
+        onmousedown="startTone(8); showImg(8)"
+        onmouseup="stopTone(); hideImg(8)"
+      >
+        <img
+          id="btnImg8"
+          class="conceal"
+          src="https://cdn.glitch.com/bc0d0ba8-ca45-4100-83f6-c7dbf1b7c24c%2Fmoon-image.png?v=1614919136662"
+          alt="moon and stars"
+        />
+      </button>
+      <button
+        id="button9"
+        onclick="guess(9)"
+        onmousedown="startTone(9); showImg(9)"
+        onmouseup="stopTone(); hideImg(9)"
+      >
+        <img
+          id="btnImg9"
+          class="conceal"
+          src="https://cdn.glitch.com/bc0d0ba8-ca45-4100-83f6-c7dbf1b7c24c%2Fmoon-image.png?v=1614919136662"
+          alt="moon and stars"
+        />
+      </button>
+    </div>
+  </body>
+</html>
