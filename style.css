@@ -1,0 +1,150 @@
+/* General body */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: white;
+  color: navy;
+  text-align: center;
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif;
+  font-style: italic;
+}
+
+p {
+  text-align: justify;
+}
+
+li {
+  text-align: justify;
+}
+
+/* For all the buttons on the page*/
+button {
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* For Start & Stop Button */
+.hidden {
+  display: none;
+}
+
+#startBtn,
+#stopBtn {
+  padding: 10px;
+  margin: 15px, 0px;
+  text-transform: uppercase;
+  background-color: aliceblue;
+}
+
+#startBtn:hover {
+  background-color: lightgreen;
+}
+
+#stopBtn:hover {
+  background-color: lightpink;
+}
+
+/* Timer */
+#countdown {
+  background-color: floralwhite;
+}
+
+/* Game Buttons */
+
+.conceal {
+  opacity: 0;
+}
+
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+}
+
+#button1 {
+  background: lightgreen;
+}
+
+#button1:active,
+#button1.lit {
+  background: green;
+}
+
+#button2 {
+  background: lightcyan;
+}
+
+#button2:active,
+#button2.lit {
+  background: dodgerblue;
+}
+
+#button3 {
+  background: lightpink;
+}
+
+#button3:active,
+#button3.lit {
+  background: indianred;
+}
+
+#button4 {
+  background: lavenderblush;
+}
+
+#button4:active,
+#button4.lit {
+  background: hotpink;
+}
+
+#button5 {
+  background: lightskyblue;
+}
+
+#button5:active,
+#button5.lit {
+  background: navy;
+}
+
+#button6 {
+  background: lemonchiffon;
+}
+
+#button6:active,
+#button6.lit {
+  background: gold;
+}
+
+#button7 {
+  background: moccasin;
+}
+
+#button7:active,
+#button7.lit {
+  background: orangered;
+}
+
+#button8 {
+  background: paleturquoise;
+}
+
+#button8:active,
+#button8.lit {
+  background: darkturquoise;
+}
+
+#button9 {
+  background: lavender;
+}
+
+#button9:active,
+#button9.lit {
+  background: indigo;
+}
