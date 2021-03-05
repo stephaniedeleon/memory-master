@@ -44,9 +44,13 @@ Here's a walkthrough of implemented user stories:
 | :----------------------------------------------------------------------------------------: |
 | ![](https://cdn.glitch.com/bc0d0ba8-ca45-4100-83f6-c7dbf1b7c24c%2Fwin.gif?v=1614927261913) |
 
-|                                      Lose - Run out of time                                      |                                       Lose - Exceeded strikes                                       |
-| :----------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------: |
-| ![](https://cdn.glitch.com/bc0d0ba8-ca45-4100-83f6-c7dbf1b7c24c%2Flose-time.gif?v=1614927253003) | ![](https://cdn.glitch.com/bc0d0ba8-ca45-4100-83f6-c7dbf1b7c24c%2Flose-strikes.gif?v=1614927272587) |
+|                                      Lose - Run out of time                                      |                                    
+| :----------------------------------------------------------------------------------------------: |
+| ![](https://cdn.glitch.com/bc0d0ba8-ca45-4100-83f6-c7dbf1b7c24c%2Flose-time.gif?v=1614927253003) |
+
+|                                     Lose - Exceeded strikes                                         |
+| :----------------------------------------------------------------------------------------------: |
+| ![](https://cdn.glitch.com/bc0d0ba8-ca45-4100-83f6-c7dbf1b7c24c%2Flose-strikes.gif?v=1614927272587) |
 
 ## Reflection Questions
 
